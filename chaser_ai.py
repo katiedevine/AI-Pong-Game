@@ -1,8 +1,5 @@
-# This is the sample AI that your AI must defeat.
-#   Note: You can modify this file, but we will test your AI
-#   against the original, unmodified file.
-#   We will not use your version of this file
-#   (so there is no reason to submit it).
+# Chaser_AI
+# This is the sample AI that your student AI must defeat.
 
 class PongAI:
     def __init__(self, table_size):
