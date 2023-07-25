@@ -1,6 +1,6 @@
-# Chaser_AI
+# chaser_ai
 
-# This is the sample AI that your student AI must defeat.
+# this is the sample AI that the student AI must defeat
 
 class PongAI:
     def __init__(self, table_size):
