@@ -1,4 +1,5 @@
 # Chaser_AI
+
 # This is the sample AI that your student AI must defeat.
 
 class PongAI:
