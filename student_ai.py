@@ -1,6 +1,6 @@
 # student_ai
 
-# This program is designed to defeat the Chaser_AI player within the PongAIvAI game
+# This program is designed to defeat the chaser_ai player within the pong_ai_v_ai game
 
 import os, sys, time, math, random
 import pygame
