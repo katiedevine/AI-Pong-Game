@@ -1,4 +1,4 @@
-# Student_AI
+# student_ai
 
 # This program is designed to defeat the Chaser_AI player within the PongAIvAI game
 
