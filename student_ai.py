@@ -1,6 +1,5 @@
-# Author(s): Hyeon-A Kim, Katie Devine
-# McGill ID(s): 260864284, 260833077
-# Pong AI Project
+# Student_AI
+# This program is designed to defeat the Chaser_AI player within the PongAIvAI game
 
 import os, sys, time, math, random
 import pygame
@@ -16,7 +15,6 @@ change_in_y = []
 slope_list = []
 ball_x = []
 ball_y = []
-
 
 class PongAI:
     def __init__(self, table_size):
