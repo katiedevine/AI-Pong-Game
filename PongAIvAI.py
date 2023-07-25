@@ -1,5 +1,7 @@
 #   PongAIvAI
 
+# This program is designed to conduct a game of pong between Chaser_AI player and Student_AI player
+
 #   Remarks: Parts of the code are based on T. S. Hayden Dennison's PongClone (2011)
 #   http://www.pygame.org/project-PongClone-1740-3032.html
 
