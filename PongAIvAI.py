@@ -1,26 +1,6 @@
-#   Note: You can modify this file, but we will test your AI
-#   against the original, unmodified file.
-#   We will not use your version of this file
-#   (so there is no reason to submit it).
-
 #   PongAIvAI
-#   Authors: Michael Guerzhoy and Denis Begun, 2014-2016.
-#   http://www.cs.toronto.edu/~guerzhoy/
-#   Email: guerzhoy at cs.toronto.edu
-#   Modified by Jonathan Campbell for COMP 208 Winter 2020.
-#
-#   This program is free software: you can redistribute it and/or modify
-#   it under the terms of the GNU General Public License as published by
-#   the Free Software Foundation, either version 3 of the License, or
-#   (at your option) any later version. You must credit the authors
-#   for the original parts of this code.
-#
-#   This program is distributed in the hope that it will be useful,
-#   but WITHOUT ANY WARRANTY; without even the implied warranty of
-#   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#   GNU General Public License for more details.
-#
-#   Parts of the code are based on T. S. Hayden Dennison's PongClone (2011)
+
+#   Remarks: Parts of the code are based on T. S. Hayden Dennison's PongClone (2011)
 #   http://www.pygame.org/project-PongClone-1740-3032.html
 
 import os, sys, time, math, random
@@ -79,8 +59,7 @@ class Rectf:
                 if self.pos[i] >= other_Rectf.pos[i] + other_Rectf.size[i]:
                     return 0
         return 1 #self.size > 0 and other_Rectf.size > 0
-
-
+        
 class Paddle:
     def __init__(self, pos, size, speed, max_angle,  facing, timeout):
         # Create a new Paddle.
@@ -447,9 +426,7 @@ def init_game():
     # and comment out line 437.
     
     paddles[1].move_getter = student_ai.PongAI(table_size)
-                        
-    
-    
+                          
     game_loop(screen, paddles, ball, table_size, clock_rate, turn_wait_rate, score_to_win, 1)
     
     screen.blit(pygame.font.Font(None, 32).render(str('SWITCHING SIDES'), True, white), [int(0.6*table_size[0])-8, 0])
